@@ -27,7 +27,7 @@ function SearchPage() {
                 entry.author_name[0]
             ));
             setBooks(cleanBookData);
-        }, 1000);
+        }, 900);
         return () => clearTimeout(delayedSearch);
     }, [input]);
     return (
